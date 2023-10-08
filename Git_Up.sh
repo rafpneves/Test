@@ -106,7 +106,7 @@ then
     git push -u origin main
 elif [ $res = "n" ];
 then
-	git push -u origin main
+	git push -u origin master
     /titulo
 else
     echo "======================================================================="
